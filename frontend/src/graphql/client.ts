@@ -10,3 +10,27 @@ query Countries {
   }
 }
 `;
+
+
+export const DETAIL_COUNTRY = gql`
+query Countries($code: String!) {
+  country(code: $code) {
+    code
+    continent {
+      name
+    }
+    emoji
+    name
+  }
+}
+`;
+
+export const CREATE_COUNTRY = gql`
+mutation AddCountry($data: NewCountryInput!) {
+  addCountry(data: $data) {
+    emoji
+    name
+    code
+  }
+}
+`;

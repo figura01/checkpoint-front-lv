@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: chocolate;
+  padding: 1rem 0;
+
+  color: white;
+}
+
+.header h1{
+  padding: .5rem; 
+  margin: 0;
+}

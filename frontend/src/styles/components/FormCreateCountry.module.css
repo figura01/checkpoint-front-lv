@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: solid 1px #ccc;
+  width: 15rem;
+  margin: 1rem auto;
+  background: rgba(0,0,0, 0.1);
+  border-radius: .2rem;
+
+}
+
+.form_grp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: .3rem 0;
+  width: 100%;;
+}
+
+.form_grp input{
+  width: 100%;
+}
+
+.submit {
+  width: 100%;
+  background-color: chocolate;
+  border-radius: .5rem;
+  border: 0;
+  height: 2rem;
+  margin-top: 1rem;
+}
